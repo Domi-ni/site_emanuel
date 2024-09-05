@@ -14,7 +14,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar bg-primary" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img src="tencent-qq.svg" height="30" /> PetMatch</a
@@ -76,14 +76,15 @@
         </div>
       </nav>
     </header>
+
     <main>
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <img
-              src="amos-the-therapy-dog-corry-stations-stress-management-alternative-4be268-1024.jpg"
+              src="images/therapy_dog.jpg"
               class="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes"
+              alt="..."
               width="700"
               height="500"
               loading="lazy"
@@ -103,13 +104,19 @@
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-                Entrar
+                <a
+                  href="login.html"
+                  style="color: aliceblue; text-decoration: none"
+                  >Entrar</a
+                >
               </button>
               <button
                 type="button"
                 class="btn btn-outline-secondary btn-lg px-4"
               >
-                Cadastro
+                <a href="cadastro.html" style="text-decoration: none"
+                  >Cadastro</a
+                >
               </button>
             </div>
           </div>
@@ -143,32 +150,43 @@
           <div style="height: 300" class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="25713811361_9d732eea0e_b.jpg"
+                src="images/cat_woman_hug.jpg"
                 class="d-block w-100"
                 alt="..."
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Supor</h5>
+                <h5>Suporte emocional</h5>
                 <p>
-                  Some representative placeholder content for the first slide.
+                  Conectamos humanos que precisam de suporte emocional com caes,
+                  gatos, passaros e outros amiguinhos animais.
                 </p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="images (1).jpg" class="d-block w-100" alt="..." />
+              <img
+                src="images/bird_woman.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
+                <h5>Conecções reais</h5>
                 <p>
-                  Some representative placeholder content for the second slide.
+                  Seja passarinho, reptil, cão ou gato, aqui ajudamos a fazer
+                  conecções reais.
                 </p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="images.jpg" class="d-block w-100" alt="..." />
+              <img
+                src="images/dog_man_hug.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
+                <h5>Adoção responsavel</h5>
                 <p>
-                  Some representative placeholder content for the third slide.
+                  Ajudamos a dar uma casa cheia de amor e carinho para os
+                  peludinhos, penudinhos ou os cheios de escamas.
                 </p>
               </div>
             </div>
@@ -194,7 +212,33 @@
         </div>
       </div>
     </main>
-
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link px-2 text-body-secondary"
+              >Inicio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="login.html" class="nav-link px-2 text-body-secondary"
+              >Entrar</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="cadastro.html" class="nav-link px-2 text-body-secondary"
+              >Cadastro</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="about_us.html" class="nav-link px-2 text-body-secondary"
+              >Sobre nos</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 PetMatch, Inc</p>
+      </footer>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
